@@ -8,13 +8,15 @@ You can also include images in this folder and reference them in the markdown. E
 -->
 
 ## How it works
-It works by using four (4) XOR gates to transform binary input to gray code output
-Explain how your project works
+It uses multiple logic gates to transfrom binary input to a decimal number to display in a 7 segment display
 
 ## How to test
-Input any 4 bits binary input, it may be using limit switches or button (must implement a debouncer by yourself)
-Explain how to use your project
+Input any binary number between 0-9.
+2^3=IN0 (most significant bit)
+2^2=IN1
+2^1=IN2
+2^0=IN3 (least significant bit)
 
 ## External hardware
-
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+For input use a dip switch with at least 4 outputs.
+For output use a single 7 segment display with common cathode. 
